@@ -1,0 +1,5 @@
+Place offsets file in root of C drive.
+
+Edit offsets to correct sensor readings; offsets are in degrees celsius.
+
+Offsets file is tab delimited text.
