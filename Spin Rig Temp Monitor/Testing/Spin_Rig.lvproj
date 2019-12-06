@@ -36,6 +36,60 @@
 				<Item Name="USB-87Pn.lvlib" Type="Library" URL="../USB-87Pn/USB-87Pn.lvlib"/>
 			</Item>
 		</Item>
+		<Item Name="Drivers" Type="Folder">
+			<Item Name="dcon_new_lv85" Type="Folder">
+				<Item Name="DCON_gen.llb" Type="Folder">
+					<Item Name="DCON_Clear_Counter.vi" Type="VI" URL="../Drivers/dcon_new_lv85/DCON_gen.llb/DCON_Clear_Counter.vi"/>
+					<Item Name="DCON_Clear_DI_Counter.vi" Type="VI" URL="../Drivers/dcon_new_lv85/DCON_gen.llb/DCON_Clear_DI_Counter.vi"/>
+					<Item Name="DCON_Clear_DIO_Latch.vi" Type="VI" URL="../Drivers/dcon_new_lv85/DCON_gen.llb/DCON_Clear_DIO_Latch.vi"/>
+					<Item Name="DCON_ErrorHandler.vi" Type="VI" URL="../Drivers/dcon_new_lv85/DCON_gen.llb/DCON_ErrorHandler.vi"/>
+					<Item Name="DCON_Get_Lib_Version.vi" Type="VI" URL="../Drivers/dcon_new_lv85/DCON_gen.llb/DCON_Get_Lib_Version.vi"/>
+					<Item Name="DCON_Read_AI.vi" Type="VI" URL="../Drivers/dcon_new_lv85/DCON_gen.llb/DCON_Read_AI.vi"/>
+					<Item Name="DCON_Read_AI_All.vi" Type="VI" URL="../Drivers/dcon_new_lv85/DCON_gen.llb/DCON_Read_AI_All.vi"/>
+					<Item Name="DCON_Read_AO.vi" Type="VI" URL="../Drivers/dcon_new_lv85/DCON_gen.llb/DCON_Read_AO.vi"/>
+					<Item Name="DCON_Read_Counter.vi" Type="VI" URL="../Drivers/dcon_new_lv85/DCON_gen.llb/DCON_Read_Counter.vi"/>
+					<Item Name="DCON_Read_DI_Counter.vi" Type="VI" URL="../Drivers/dcon_new_lv85/DCON_gen.llb/DCON_Read_DI_Counter.vi"/>
+					<Item Name="DCON_Read_DIO.vi" Type="VI" URL="../Drivers/dcon_new_lv85/DCON_gen.llb/DCON_Read_DIO.vi"/>
+					<Item Name="DCON_READ_DIO_Latch.vi" Type="VI" URL="../Drivers/dcon_new_lv85/DCON_gen.llb/DCON_READ_DIO_Latch.vi"/>
+					<Item Name="DCON_Read_Overflow.vi" Type="VI" URL="../Drivers/dcon_new_lv85/DCON_gen.llb/DCON_Read_Overflow.vi"/>
+					<Item Name="DCON_Write_AO.vi" Type="VI" URL="../Drivers/dcon_new_lv85/DCON_gen.llb/DCON_Write_AO.vi"/>
+					<Item Name="DCON_Write_DO.vi" Type="VI" URL="../Drivers/dcon_new_lv85/DCON_gen.llb/DCON_Write_DO.vi"/>
+					<Item Name="DCON_Write_DO_Bit.vi" Type="VI" URL="../Drivers/dcon_new_lv85/DCON_gen.llb/DCON_Write_DO_Bit.vi"/>
+				</Item>
+				<Item Name="uart.llb" Type="Folder">
+					<Item Name="Change_Baudrate.vi" Type="VI" URL="../Drivers/dcon_new_lv85/uart.llb/Change_Baudrate.vi"/>
+					<Item Name="Change_Config.VI" Type="VI" URL="../Drivers/dcon_new_lv85/uart.llb/Change_Config.VI"/>
+					<Item Name="Close_Com.vi" Type="VI" URL="../Drivers/dcon_new_lv85/uart.llb/Close_Com.vi"/>
+					<Item Name="DataSizeInCom.vi" Type="VI" URL="../Drivers/dcon_new_lv85/uart.llb/DataSizeInCom.vi"/>
+					<Item Name="DataSizeOutCom.vi" Type="VI" URL="../Drivers/dcon_new_lv85/uart.llb/DataSizeOutCom.vi"/>
+					<Item Name="err.vi" Type="VI" URL="../Drivers/dcon_new_lv85/uart.llb/err.vi"/>
+					<Item Name="ErrorMsg.vi" Type="VI" URL="../Drivers/dcon_new_lv85/uart.llb/ErrorMsg.vi"/>
+					<Item Name="Get_Com_Status.VI" Type="VI" URL="../Drivers/dcon_new_lv85/uart.llb/Get_Com_Status.VI"/>
+					<Item Name="Get_Uart_Version.vi" Type="VI" URL="../Drivers/dcon_new_lv85/uart.llb/Get_Uart_Version.vi"/>
+					<Item Name="GetLineStatus.vi" Type="VI" URL="../Drivers/dcon_new_lv85/uart.llb/GetLineStatus.vi"/>
+					<Item Name="Open_Com.VI" Type="VI" URL="../Drivers/dcon_new_lv85/uart.llb/Open_Com.VI"/>
+					<Item Name="Receive_Binary.vi" Type="VI" URL="../Drivers/dcon_new_lv85/uart.llb/Receive_Binary.vi"/>
+					<Item Name="Receive_Cmd.vi" Type="VI" URL="../Drivers/dcon_new_lv85/uart.llb/Receive_Cmd.vi"/>
+					<Item Name="Receive_Cmd_WithChar.vi" Type="VI" URL="../Drivers/dcon_new_lv85/uart.llb/Receive_Cmd_WithChar.vi"/>
+					<Item Name="Send_Binary.vi" Type="VI" URL="../Drivers/dcon_new_lv85/uart.llb/Send_Binary.vi"/>
+					<Item Name="Send_Cmd.vi" Type="VI" URL="../Drivers/dcon_new_lv85/uart.llb/Send_Cmd.vi"/>
+					<Item Name="Send_Cmd_WithChar.vi" Type="VI" URL="../Drivers/dcon_new_lv85/uart.llb/Send_Cmd_WithChar.vi"/>
+					<Item Name="Send_receive_cmd.vi" Type="VI" URL="../Drivers/dcon_new_lv85/uart.llb/Send_receive_cmd.vi"/>
+					<Item Name="Send_Receive_Cmd_WithChar.vi" Type="VI" URL="../Drivers/dcon_new_lv85/uart.llb/Send_Receive_Cmd_WithChar.vi"/>
+					<Item Name="SetLineStatus.vi" Type="VI" URL="../Drivers/dcon_new_lv85/uart.llb/SetLineStatus.vi"/>
+				</Item>
+				<Item Name="xboard_demo" Type="Folder">
+					<Item Name="AI_4.vi" Type="VI" URL="../Drivers/dcon_new_lv85/xboard_demo/AI_4.vi"/>
+					<Item Name="AI_one.vi" Type="VI" URL="../Drivers/dcon_new_lv85/xboard_demo/AI_one.vi"/>
+					<Item Name="DI.vi" Type="VI" URL="../Drivers/dcon_new_lv85/xboard_demo/DI.vi"/>
+					<Item Name="DI_and_AI_1.vi" Type="VI" URL="../Drivers/dcon_new_lv85/xboard_demo/DI_and_AI_1.vi"/>
+					<Item Name="X304.vi" Type="VI" URL="../Drivers/dcon_new_lv85/xboard_demo/X304.vi"/>
+				</Item>
+				<Item Name="dcon_fun_user_manual.pdf" Type="Document" URL="../Drivers/dcon_new_lv85/dcon_fun_user_manual.pdf"/>
+				<Item Name="DCON_PC.dll" Type="Document" URL="../Drivers/dcon_new_lv85/DCON_PC.dll"/>
+				<Item Name="Uart.dll" Type="Document" URL="../Drivers/dcon_new_lv85/Uart.dll"/>
+			</Item>
+		</Item>
 		<Item Name="Framework" Type="Folder">
 			<Item Name="Message Queue.lvlib" Type="Library" URL="../Framework/Message Queue/Message Queue.lvlib"/>
 			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../Framework/User Event - Stop/User Event - Stop.lvlib"/>
@@ -47,24 +101,16 @@
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Close_Com.vi" Type="VI" URL="/&lt;vilib&gt;/dcon_new_lv85/uart.llb/Close_Com.vi"/>
-				<Item Name="DCON_ErrorHandler.vi" Type="VI" URL="/&lt;vilib&gt;/dcon_new_lv85/DCON_gen.llb/DCON_ErrorHandler.vi"/>
-				<Item Name="DCON_PC.dll" Type="Document" URL="/&lt;vilib&gt;/dcon_new_lv85/DCON_PC.dll"/>
-				<Item Name="DCON_Read_AI_All.vi" Type="VI" URL="/&lt;vilib&gt;/dcon_new_lv85/DCON_gen.llb/DCON_Read_AI_All.vi"/>
-				<Item Name="DCON_Write_DO.vi" Type="VI" URL="/&lt;vilib&gt;/dcon_new_lv85/DCON_gen.llb/DCON_Write_DO.vi"/>
-				<Item Name="err.vi" Type="VI" URL="/&lt;vilib&gt;/dcon_new_lv85/uart.llb/err.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="Open_Com.VI" Type="VI" URL="/&lt;vilib&gt;/dcon_new_lv85/uart.llb/Open_Com.VI"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Uart.dll" Type="Document" URL="/&lt;vilib&gt;/dcon_new_lv85/Uart.dll"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 		</Item>
