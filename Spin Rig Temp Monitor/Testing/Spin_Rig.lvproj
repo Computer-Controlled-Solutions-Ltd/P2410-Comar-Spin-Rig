@@ -95,6 +95,7 @@
 			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../Framework/User Event - Stop/User Event - Stop.lvlib"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Open_Circuit.ctl" Type="VI" URL="../Alarm_Panel/Open_Circuit.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
