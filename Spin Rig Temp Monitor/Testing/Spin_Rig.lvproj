@@ -13,8 +13,12 @@
 		<Item Name="Actors" Type="Folder">
 			<Item Name="Alarm_Manager" Type="Folder">
 				<Item Name="typedef" Type="Folder">
+					<Item Name="Alarm.ctl" Type="VI" URL="../Alarm_Panel/Alarm.ctl"/>
 					<Item Name="Alarm_Data.ctl" Type="VI" URL="../Alarm_Panel/Alarm_Data.ctl"/>
+					<Item Name="Alarm_State_Enum.ctl" Type="VI" URL="../Alarm_Panel/Alarm_State_Enum.ctl"/>
 					<Item Name="Channel_Temperature_Threshold.ctl" Type="VI" URL="../Alarm_Panel/Channel_Temperature_Threshold.ctl"/>
+					<Item Name="Open_Circuit.ctl" Type="VI" URL="../Alarm_Panel/Open_Circuit.ctl"/>
+					<Item Name="Thermocouple.ctl" Type="VI" URL="../Alarm_Panel/Thermocouple.ctl"/>
 				</Item>
 				<Item Name="Alarm_Config.ini" Type="Document" URL="../Alarm_Panel/Alarm_Config.ini"/>
 				<Item Name="Alarm_Manager.lvlib" Type="Library" URL="../Alarm_Panel/Alarm_Manager.lvlib"/>
@@ -95,7 +99,6 @@
 			<Item Name="User Event - Stop.lvlib" Type="Library" URL="../Framework/User Event - Stop/User Event - Stop.lvlib"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Open_Circuit.ctl" Type="VI" URL="../Alarm_Panel/Open_Circuit.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -175,7 +178,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{639ADB80-931E-495F-80B5-1841274E1313}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Spin_Rig.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Spin_Rig/Spin_Rig.exe</Property>
@@ -184,7 +187,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Spin_Rig/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3ABC4978-0F48-457C-A17A-F6A6B7D0DCA2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2950A747-3DF1-43C1-9038-982231CF6568}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
